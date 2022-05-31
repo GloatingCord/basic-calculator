@@ -5,27 +5,27 @@ namespace GloatingCord26\BasicCalculator;
 class NumberFuncs implements NumberInterface
 {
     public function __construct(
-        private float|int $num1,
-        private float|int $num2
+        private int $num1,
+        private int $num2
     ) {
     }
 
-    public function add(): int|float
+    public function add(): int
     {
         return $this->num1 + $this->num2;
     }
 
-    public function sub(): int|float
+    public function sub(): int
     {
         return $this->num1 - $this->num2;
     }
 
-    public function mul(): int|float
+    public function mul(): int
     {
         return $this->num1 * $this->num2;
     }
 
-    public function dev(): int|float
+    public function dev(): int
     {
         return $this->num1 / $this->num2;
     }
