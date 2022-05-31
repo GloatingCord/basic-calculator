@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Main\\' => array($baseDir . '/src'),
+    'GloatingCord26\\BasicCalculator' => array($baseDir . '/src'),
 );

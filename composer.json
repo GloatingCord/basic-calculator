@@ -2,10 +2,8 @@
     "name": "gloatingcord26/basic-calculator",
     "autoload": {
         "psr-4": {
-            "GloatingCord26\\BasicCalculator": "src/"
+            "GloatingCord26\\BasicCalculator\\": "src/"
         }
-    },
-    "require": {
     },
     "require-dev": {
         "phpstan/phpstan": "^1.7"
