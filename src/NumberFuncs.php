@@ -1,6 +1,6 @@
 <?php
 
-namespace BasicCalculator\Main;
+namespace GloatingCord26\BasicCalculator;
 
 class NumberFuncs implements NumberInterface
 {
