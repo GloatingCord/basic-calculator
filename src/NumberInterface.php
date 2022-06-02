@@ -4,11 +4,11 @@ namespace GloatingCord26\BasicCalculator;
 
 interface NumberInterface
 {
-    public function add();
+    public function add(int $num1, int $num2);
 
-    public function sub();
+    public function sub(int $num1, int $num2);
 
-    public function mul();
+    public function mul(int $num1, int $num2);
 
-    public function dev();
+    public function dev(int $num1, int $num2);
 }
